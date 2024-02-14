@@ -346,6 +346,7 @@ def passwrd():
 					pwv.append(frs+'2007')
 					pwv.append(frs+'2008')
 					pwv.append(frs+'2009')
+					pwv.append(frs+'2010')
 	  			pwv.append(frs+'86')
 	  			pwv.append(frs+'87')
 	  			pwv.append(frs+'88')
@@ -388,6 +389,8 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
+
+			if 'ya' in pwpluss:
 					pwv.append(birthday)
 					pwv.append(frs+'123123')
 					pwv.append('birthday')
@@ -438,6 +441,7 @@ def passwrd():
 					pwv.append(frs+'2007')
 					pwv.append(frs+'2008')
 					pwv.append(frs+'2009')
+					pwv.append(frs+'2010')
 	  			pwv.append(frs+'86')
 	  			pwv.append(frs+'87')
 	  			pwv.append(frs+'88')
@@ -471,7 +475,6 @@ def passwrd():
 	  			pwv.append(frs+'1984')
 	  			pwv.append(frs+'1985')
 	  			pwv.append(frs+'321')
-			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
 			else:pass
