@@ -56,13 +56,7 @@ def Kaluar(): os.system('rm -rf .token.txt');os.system('rm -rf .cok.txt');_____a
 def KembaliKeLaptop(): MainMenu()
 
 #<-[ Logo-Banener ]->#
-def LogoBanner(): BersihkanLayar();_____animasi__berjalan_____(f'''\x1b[1;91m<------------------------------------------------------------>{X}\n  
-░█████╗░██████╗░██╗███╗░░██╗
-██╔══██╗██╔══██╗██║████╗░██║
-███████║██████╔╝██║██╔██╗██║
-██╔══██║██╔══██╗██║██║╚████║
-██║░░██║██║░░██║██║██║░╚███║
-╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝\n\x1b[1;91m<------------------------------------------------------------>{N}''')
+def LogoBanner(): BersihkanLayar();_____animasi__berjalan_____(f'''\x1b[1;91m<------------------------------------------------------------>{X}\n  ██████╗██████╗  █████╗  ██████╗██╗  ██╗    ███████╗██████╗\n ██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔══██╗\n ██║     ██████╔╝███████║██║     █████╔╝     █████╗  ██████╔╝\n ██║     ██╔══██╗██╔══██║██║     ██╔═██╗     ██╔══╝  ██╔══██╗\n ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗    ██║     ██████╔╝\n  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝     ╚═════╝\n\x1b[1;91m<------------------------------------------------------------>{N}''')
 
 #<-[ Login-Cookies ]->#
 def LoginCookies():
@@ -302,53 +296,6 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
-					pwv.append(frs+'123123')
-					pwv.append(frs+'10002000')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'22334455')
-					pwv.append(frs+'223344')
-					pwv.append(frs+'1234qwer')
-					pwv.append(frs+'20222022')
-					pwv.append(frs+'123456789')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2000')
-					pwv.append(frs+'123123')
-					pwv.append(frs+'123321')
-					pwv.append(frs+'12341234')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'12345678')
-					pwv.append(frs+'1234567')
-					pwv.append(frs+'2003')
-					pwv.append(frs+'123@')
-					pwv.append(frs+'1234@')
-					pwv.append(frs+'12345@')
-					pwv.append(frs+'1234512345')
-					pwv.append(frs+'20052005')
-					pwv.append(frs+'qwer1234')
-					pwv.append(password)
-					pwv.append(frs+'11223344')
-					pwv.append(frs+'brtdy')
-					pwv.append(frs+'1990')
-					pwv.append(frs+'1991')
-					pwv.append(frs+'1992')
-					pwv.append(frs+'1993')
-					pwv.append(frs+'1994')
-					pwv.append(frs+'1995')
-					pwv.append(frs+'1996')
-					pwv.append(frs+'1997')
-					pwv.append(frs+'1998')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2000')
-					pwv.append(frs+'2001')
-					pwv.append(frs+'2002')
-					pwv.append(frs+'2003')
-					pwv.append(frs+'2004')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2006')
-					pwv.append(frs+'2007')
-					pwv.append(frs+'2008')
-					pwv.append(frs+'2009')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -358,52 +305,6 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
-					pwv.append(frs+'123123')
-					pwv.append(frs+'10002000')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'22334455')
-					pwv.append(frs+'223344')
-					pwv.append(frs+'1234qwer')
-					pwv.append(frs+'20222022')
-					pwv.append(frs+'123456789')
-					pwv.append(frs+'112233')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2000')
-					pwv.append(frs+'123123')
-					pwv.append(frs+'123321')
-					pwv.append(frs+'12341234')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'12345678')
-					pwv.append(frs+'1234567')
-					pwv.append(frs+'2003')
-					pwv.append(frs+'123@')
-					pwv.append(frs+'1234@')
-					pwv.append(frs+'12345@')
-					pwv.append(frs+'1234512345')
-					pwv.append(frs+'20052005')
-					pwv.append(frs+'qwer1234')
-					pwv.append(password)
-					pwv.append(frs+'11223344')
-					pwv.append(frs+'1990')
-					pwv.append(frs+'1991')
-					pwv.append(frs+'1992')
-					pwv.append(frs+'1993')
-					pwv.append(frs+'1994')
-					pwv.append(frs+'1995')
-					pwv.append(frs+'1996')
-					pwv.append(frs+'1997')
-					pwv.append(frs+'1998')
-					pwv.append(frs+'1999')
-					pwv.append(frs+'2000')
-					pwv.append(frs+'2001')
-					pwv.append(frs+'2002')
-					pwv.append(frs+'2003')
-					pwv.append(frs+'2004')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2006')
-					pwv.append(frs+'2007')
-					pwv.append(frs+'2008')
-					pwv.append(frs+'2009')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
@@ -592,10 +493,10 @@ def Ugen():
 	o = random.choice(["en-us","en-gb","id-id","de-de","ru-ru","en-sg","my-sg","fr-fr","fa-ir","ja-jp","pt-br","cs-cz","zh-hk","zh-cn","vi-vn","en-ph","en-in","tr-tr","es-es","it-it","zh-tw"])
 	z = random.choice([
 		f"Mozilla/5.0 (Linux; U; Android {a}; {o}; {i} Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h}{random.choice([f' MZBrowser/{str(random.randint(6,8))}.{str(random.randint(0,20))}.110-{str(random.randint(2000000000,2029999999))} UWS/2.15.0.4',f' MZBrowser/{str(random.randint(6,8))}.{str(random.randint(0,10))}.{str(random.randint(0,10))} UWS/2.15.0.2',f' MZBrowser/{str(random.randint(8,10))}.{str(random.randint(0,20))}.{str(random.randint(0,20))}',f' MQQBrowser/{str(random.randint(4,10))}.{str(random.randint(0,9))}',f' UCBrowser/{str(random.randint(1,9))}.{str(random.randint(1,9))}.{str(random.randint(1,9))}.{str(random.randint(100,1299))}'])} Mobile Safari/537.36",
-		f"Mozilla/5.0 (Linux; Android {a}; {j} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
-		f"Mozilla/5.0 (Linux; Android {a}; {k} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
-		f"Mozilla/5.0 (Linux; Android {a}; {l} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
-		f"Mozilla/5.0 (Linux; Android {a}; {m} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
+		f"Mozilla/5.0 (Linux; Android {a}; {j} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
+		f"Mozilla/5.0 (Linux; Android {a}; {k} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
+		f"Mozilla/5.0 (Linux; Android {a}; {l} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
+		f"Mozilla/5.0 (Linux; Android {a}; {m} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
 		f"Mozilla/5.0 (iPad; CPU OS {n} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/605.1.15{random.choice([f' GNews iOS/5.74.201',f' QBWebViewUA/2 QBWebViewType/1 WKType/1',''])}",
 		f"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{str(random.randint(0,10))}_{str(random.randint(0,10))}) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{str(random.randint(10,20))}.0 Safari/605.1.15{random.choice([f' GNews iOS/5.74.201',f' QBWebViewUA/2 QBWebViewType/1 WKType/1',''])}",
 		f"Mozilla/5.0 (iPhone; CPU iPhone OS {n} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/115 Mobile/15E148 Safari/605.1.15",
@@ -603,11 +504,11 @@ def Ugen():
 		f"Mozilla/5.0 (iPhone; CPU iPhone OS {n} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/122.0.2365.9 Version/{str(random.randint(10,20))}.0 Mobile/15E148 Safari/604.1",
 		f"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{str(random.randint(0,10))}_{str(random.randint(0,10))}) AppleWebKit/583.3 (KHTML, like Gecko) Chrome/{e}.{f}.{g}.{h} Safari/583.3 {random.choice([f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',''])}",
 		f"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_{str(random.randint(0,10))}_{str(random.randint(0,10))}; en-US) AppleWebKit/603.7.5 (KHTML, like Gecko) Version/13.0.3 Safari/603.7.5",
-		f"Mozilla/5.0 (Linux; Android {a}; {random.choice([f'{l}','Infinix X608'])} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
+		f"Mozilla/5.0 (Linux; Android {a}; {random.choice([f'{l}','Infinix X608'])} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}",
 		f"Mozilla/5.0 (Linux; U; Android {a}; {o}; {random.choice([f'{l}','Infinix X608'])} Build/{b}.{c}.0{d}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h}{random.choice([f' MZBrowser/{str(random.randint(6,8))}.{str(random.randint(0,10))}.{str(random.randint(0,10))} UWS/2.15.0.2',f' MZBrowser/{str(random.randint(8,10))}.{str(random.randint(0,20))}.{str(random.randint(0,20))}',f' MQQBrowser/{str(random.randint(4,10))}.{str(random.randint(0,9))}',f' UCBrowser/{str(random.randint(1,9))}.{str(random.randint(1,9))}.{str(random.randint(1,9))}.{str(random.randint(100,1299))}'])} Mobile Safari/537.36",
 		f"Mozilla/5.0 (Linux; U; Android {a}; {o}; {random.choice([f'{j}',f'{k}',f'{l}',f'{m}'])} Build/{b}.{c}.0{d}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice([f' OppoBrowser/{str(random.randint(1,25))}.{str(random.randint(1,9))}.0.{str(random.randint(1,9))}',f' RealmeBrowser/{str(random.randint(10,39))}.{str(random.randint(1,9))}.0.{str(random.randint(1,9))}',f' HeyTapBrowser/{str(random.randint(6,49))}.{str(random.randint(7,8))}.{str(random.randint(2,40))}.{str(random.randint(1,9))}',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}'])}",
 		f"Mozilla/5.0 (Linux; Android {a}; {random.choice([f'{l}','Infinix X608'])} Build/{b}.{c}.0{d}; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36 Puffin/8.3.1.41624AP",
-		f"Mozilla/5.0 (Linux; Android {a}; {random.choice(['WP21','TECNO KE7','RG655'])} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}"
+		f"Mozilla/5.0 (Linux; Android {a}; {random.choice(['WP21','TECNO KE7','RG655'])} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.{f}.{g}.{h} Mobile Safari/537.36{random.choice(['',f' T7/12.10 SP-engine/2.28.0 baiduboxapp/12.10.0.10 (Baidu; P1 10) NABar/1.0',f' OPR/{str(random.randint(20,50))}.{str(random.randint(0,1))}.{str(random.randint(1000,4999))}.{str(random.randint(70000,209999))}',f' OPR/{str(random.randint(50,80))}.{str(random.randint(0,1))}.{str(random.randint(1000,6999))}.{str(random.randint(10000,69999))}',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm64',f' GSA/{str(random.randint(5,14))}.{str(random.randint(1,50))}.{str(random.randint(1,40))}.{str(random.randint(1,30))}.arm',f' [FB_IAB/FB4A;FBAV/{str(random.randint(400,449))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f'[FBAN/EMA;FBLC/id_ID;FBAV/{str(random.randint(300,389))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' [FB_IAB/Orca-Android;FBAV/{str(random.randint(400,439))}.0.0.{str(random.randint(0,49))}.{str(random.randint(0,249))};]',f' EdgA/{str(random.randint(30,129))}.0.{str(random.randint(1100,1299))}.{str(random.randint(10,99))}',f' Edg/{str(random.randint(73,129))}.0.{str(random.randint(1200,2999))}.{str(random.randint(73,250))}',f' baiduboxapp/4.8 (Baidu; P1 4.1.2)',f' GNews Android/2022166490',''])}"
 	])
 	return z
 
